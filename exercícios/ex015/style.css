@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/* REGRA @charset CASO HAJA PROBLEMAS COM ACENTUAÇÃO */
+body {
+    background-color: blanchedalmond;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-size 20px;
+}
+
+h1 {
+    background-color: rgba(56, 41, 10, 0.651);
+    color: blue;
+}
+
+h2 {
+    color: brown;
+}

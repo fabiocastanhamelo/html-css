@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de caixas</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        h1{
+            background-color: lightcyan;
+            height: 70px;
+            width: 400px;
+
+            /*APRENDENDO SHORTHANDS
+            border-width: 10px;
+            border-style: solid;
+            border-color: darkgray;
+            */
+            border: 10px solid darkgray;
+
+            padding: 2px 2px 2px 2px;
+            /*Quando as 4 medidas são iguais, basta informar apenas uma vez.
+            Quando é inserido duas medidas, a primeira será aplicada em top e bottom e a segunda medida em right e left*/
+
+            /*margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;*/
+            margin: 10px 10px 10px 10px;
+
+
+            /*outline-width: 5px;
+            outline-style: double;
+            outline-color: blue;*/
+            outline: 5px double black;
+
+        }
+
+        a {
+            border: 5px double blue;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafo também são exemplos de box-level, mas os <a href="#">links são exemplos de caixas inline-level.</a> Vamos ver como tudo isso funciona.</p>
+    
+    
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: rgba(144, 144, 238, 0.911);
+            margin: 0px;
+        }
+
+        header {
+            background-color: rgb(188, 230, 122);
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: beige;
+            padding: 3px;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.795);
+        }
+
+        nav > a {
+            margin-right: 10px;
+            color: black;
+        }
+
+        nav > a:hover {
+            text-decoration: line-through;
+        }
+
+        #assuntos {
+            background-color: white;
+            text-align: center;
+            padding: 1px;
+            border-radius: 0px 10px;
+        }
+
+        main {
+            background-color: rgb(188, 230, 122);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+            border-radius: 20px;
+        }
+
+        article > aside {
+            background-color: rgb(110, 109, 109);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            margin: 10px;
+            text-align: center;
+            padding: 3px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        nav {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Entretenimento Social</p>
+                     
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias do Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat reprehenderit vitae aperiam amet eius, ea illum fugit optio obcaecati? Repellendus fugit nemo quos eaque corporis, neque aspernatur consequatur quod explicabo!</p>
+                <aside>
+                   <p>Escrito por Demanto</p>
+                </aside>
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Bibito</p>
+    </footer>
+
+    
+</body>
+</html>
