@@ -73,14 +73,11 @@ Grandes Telas: acima de 1200px
     img#tv { display: none;}
 }
 
-@media screnn and (min-width: 1200px) {
+@media screnn and (min-width: 1000px) and (max-width: 1200px) {
     body {
         background-image: url(../imagens/back-tv.jpg);
     }
 
-    main {
-        width: 700px;
-    }
     img#phone { display: none;}
     img#tablet { display: none;}
     img#print { display: none;}
